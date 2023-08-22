@@ -7,4 +7,5 @@ KingdomName = input("\nEnter the name of your kingdom:  ")
 Sibling = input("\nDo you have a brother or a sister:  ")
 
 
-print(f"\nYou are a {HighElfGender} Elf aprt of the distinguished {FamilyName} family. Your name is {HighElfName} and your family is in a crisis your {Sibling} has run away from home.")
+print(f"\nYou are a {HighElfGender} Elf aprt of the distinguished {FamilyName} family. Your name is {HighElfName} and your family is in a crisis, your {Sibling} has run away from home.")
+print(f"\nYou set out to find your {Sibling}. You caught wind that your {Sibling} is heading to the enchanted forest, You spot you {Sibling} and they are surounded by feral boars. ")
