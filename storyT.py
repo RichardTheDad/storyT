@@ -24,14 +24,14 @@ if Choice1.lower() == "y":
 Choice2 = input("head home y, say in the forest n:  ")
 while Choice2.lower() not in ["y","n"]:
     Choice2 = input("invalid value enter y or n:  ")
-if Choice2.lower() =="y":
+if Choice2.lower() =="y" and Choice1.lower() =="y":
     print(f"\nYou head home with your {Sibling} thinking how great it will be to finaly head home after the long day.")
 
 #choice 2 bad ending
 if Choice1.lower() == "n":
     print(f"\nYou hang your head in shame at your cowardice. Will you head home or will you stay within the forest to ashamed to show your face to your parents.")
-Choice2 = input("head home y, say in the forest n:  ")
+
 while Choice2.lower() not in ["y","n"]:
     Choice2 = input("invalade value enter y or n:  ")
-if Choice1.lower() == "n":
+if Choice1.lower() == "n" and Choice2.lower() == "y":
     print(f"\nYou head home to accept your punishment from your parents with a heavy heart.")
