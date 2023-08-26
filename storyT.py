@@ -18,7 +18,7 @@ while KeepPlaying.lower() == "yes":
     while Sibling.lower() not in ["brother","sister"]:
         Sibling = input(f"\nPlease enter brother or sister:  ")
 
-    print("--------------------------------------------")
+    
 
     print(f"\nIn a realm where the luminescent High Elves dwell, you are one such elf belonging to the esteemed lineage of House {FamilyName}.")
     print(f"\nWith a name as illustrious as {HighElfName}, your family's standing is beyond compare.")
@@ -34,7 +34,7 @@ while KeepPlaying.lower() == "yes":
         print(f"\nTerrified of the beasts you run abandoning your {Sibling}. As you bolt tripping throughout the forest dropping your {Weapon}.")
         print(f"\nYou hear the screams of your {Sibling} as their  flesh be torn from the bone.")
 
-    print("--------------------------------------------")
+    
 
     #choice 2 y y
     if Choice1.lower() == "y":
@@ -45,7 +45,7 @@ while KeepPlaying.lower() == "yes":
     if Choice2.lower() =="y" and Choice1.lower() =="y":
         print(f"\nYou head home with your {Sibling} thinking how great it will be to finaly head home after the long day.")
 
-    print("--------------------------------------------")
+    
 
     #choice 2 n y
     if Choice1.lower() == "n":
@@ -56,13 +56,13 @@ while KeepPlaying.lower() == "yes":
         print(f"\nYou head home to accept your punishment from your parents with a heavy heart.")
 
 
-    print("--------------------------------------------")
+    
 
     #Choice 2 y n
     if Choice1.lower() == "y" and Choice2.lower() == "n":
         print(f"\nNow that your focus is lifted from your {Sibling} you notice that the forest looks incredible. You decide to live within the forest with your {Sibling} to save them from your family.")
 
-    print("--------------------------------------------")
+    
 
     #Choice n n
     if Choice1.lower() == "n" and Choice2.lower() == "n":
@@ -83,13 +83,13 @@ while KeepPlaying.lower() == "yes":
         print(f"\nFaced with these trying circumstances, a decision crystalizes in your mind you and your {Sibling} choose to seek solace in the heart of a captivating forest.")
         print(f"\nAmidst the beauty of nature, you hope to find a new beginning, far from the troubles that have befallen your family.")
 
-    print("--------------------------------------------")
+    
     #story end 3
     if Choice1.lower() == "n" and Choice2.lower() == "y":
         print(f"\nThe tragic passing of your {Sibling} weighs heavily on your heart, burdening you with remorse for not being there when they needed you.")
         print(f"\nAfter a period of deep contemplation, you gather your thoughts and make your way back home, ready to confront whatever consequences your parents might impose upon you.")
 
-    print("--------------------------------------------")
+    
 
     #story end 4 
     if Choice1.lower() == "n" and Choice2.lower() == "n":
