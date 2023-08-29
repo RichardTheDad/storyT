@@ -5,8 +5,11 @@ while KeepPlaying.lower() == "yes":
 
 
     FamilyName = input("\nPick a family name:  ")
-
+    while (len(FamilyName) == 0):
+        FamilyName = input("\ninvalid input please enter a family name:  ")
     HighElfName = input("\nEnter the name of your elf:  ")
+    while (len(HighElfName) == 0):
+        HighElfName = input("\ninvalid input please enter Elf Gender:  ")
 
     HighElfGender = input("\nWhat is the gender of your elf Male or female:  ")
     while HighElfGender.lower() not in ["male","female"]:
